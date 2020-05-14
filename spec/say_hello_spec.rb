@@ -1,4 +1,4 @@
-require_relative './spec_helper'
+require_relative '../spec_helper'
 
 describe "say_hello" do 
   
@@ -11,4 +11,4 @@ describe "say_hello" do
     expect($stdout).to receive(:puts).with("Hello Ruby Programmer!")
     say_hello()
   end
-end
+end 
